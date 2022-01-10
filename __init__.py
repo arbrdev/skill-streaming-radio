@@ -42,7 +42,7 @@ class InternetRadioSkill(MycroftSkill):
         self.register_intent_file('play.intent', self.handle_play_intent)
    
         if AudioService:
-            self.audioservice = AudioService(self.emitter)
+            self.audioservice = AudioService(self.bus)
 
     def handle_play_intent(self, message):
         self.stop()  # ???? Just in case something is already playing ????

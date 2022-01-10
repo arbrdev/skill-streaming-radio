@@ -64,7 +64,7 @@
                         "name": "rock",
                         "type": "text",
                         "label": "rock",
-                        "value": "http://144.217.253.136:8564/stream"
+                        "value": "https://radioserver02.ccradio.es/radio/8000/radio.mp3"
                     }
                 ]
             },
